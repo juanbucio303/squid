@@ -1,0 +1,19 @@
+#box-login{
+  margin-top: 100px;
+  margin-bottom: 280px;
+}
+#registros{
+
+}
+.padding{
+  margin-top: 10%;
+}
+/* #registrar{
+  position: fixed;
+  left: 93%;
+  top: 94%;
+} */
+#body1 {
+  /* background: radial-gradient(red, yellow, green); */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}

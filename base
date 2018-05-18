@@ -1,0 +1,45 @@
+Usuarios
+  -id_usuario
+  -nombre_usuario
+  -contra
+  -estado
+  -fecha_ini        primero
+  -fecha-fin
+  -id_tipo_Usuarios
+  -id_dispositivo
+Personales
+  -id_pesonales
+  -no_cuenta
+  -nombre     segundo
+  -ap
+  -am
+  -email
+  -id_usuario
+Tipo_Dispositivos
+  -id_tipo_dispositivo
+  -desc
+Dispositivos
+  -id_dispositivo
+  -desc_dispositivo unique
+  -id_tipo_dispositivo
+  -ip_address unique
+  -mac_address unique
+Tipo_Usuarios
+    -id_tipo_usuario
+    -desc_tipo_usuario
+
+
+____________________________________________________________________________________
+usuarios
+  -id_usuario
+  -nombre_usuario
+  -Contraseña
+  -id_tipo_usuario
+  -id_directorio
+directorios
+  -id_directorio
+  -nombre_directorio
+  -id_tipo_permiso
+tipo_permisos
+  -id_tipo_permiso
+  -desc_permiso
